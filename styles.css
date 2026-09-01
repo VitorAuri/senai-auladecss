@@ -1,0 +1,24 @@
+body {
+    background-color: #3a3a3a; 
+    color: white;
+}
+nav {
+    background-color: rgb(19, 19, 19);
+    padding: 10px 15px;
+    text-align: right;
+    display: inline-block;
+    float: right;
+    border-radius: 8px;
+}
+nav a {
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+nav a:hover {
+    background-color: rgb(24, 104, 104);
+    color: aqua;
+}
